@@ -17,6 +17,8 @@ class Car:
 
     def drive(self):
          print(f"The {self.model } with {self.color} is been driven at {self.mileage} km/hr")
+    
+
 
 
 car1 = Car("BMW","green",5000)
@@ -26,6 +28,7 @@ car2 = Car("BMW","blue",15000)
 car1.start()
 car1.stop()
 car2.drive()
+
 
 
 
